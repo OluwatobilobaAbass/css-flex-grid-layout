@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap") * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+main {
+  width: 1440px;
+  /*margin: auto;*/
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+img {
+  width: 20%;
+}
+.flex-container {
+  padding: 2em;
+  line-height: 2;
+  display: flex;
+  overflow: hidden;
+}
+.first-container {
+  width: 200px;
+  padding: 2em;
+  border-radius: 4px 0 0 4px;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.first-container h2 {
+  margin: 0;
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+  font-size: 20px;
+}
+.second-container {
+  width: 200px;
+  padding: 2em;
+  background-color: hsl(184, 100%, 22%);
+}
+.second-container h2 {
+  margin: 0;
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+  font-size: 20px;
+}
+.third-container {
+  width: 200px;
+  padding: 2em;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 4px 4px 0;
+}
+.third-container h2 {
+  margin: 0;
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+  font-size: 20px;
+}
+
+p {
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+}
+.button1 {
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  font-size: 10px;
+  text-align: center;
+  border-radius: 20px;
+  place-items: center;
+  padding: 15px;
+  margin: 40px;
+  width: 100px;
+  height: 50px;
+  transition: 0;
+  border: solid;
+}
+.button1:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  font-size: 10px;
+  text-align: center;
+  border-radius: 20px;
+  place-items: center;
+  padding: 15px;
+  margin: 40px;
+  width: 100px;
+  height: 50px;
+  transition: 0;
+  border: solid;
+}
+
+.button2:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  font-size: 10px;
+  text-align: center;
+  border-radius: 20px;
+  place-items: center;
+  padding: 15px;
+  margin: 40px;
+  width: 100px;
+  height: 50px;
+  transition: 0;
+  border: solid;
+}
+
+.button3:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+nav {
+}
+
+nav {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+}
+.button4 {
+  background-color: pink;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  place-items: center;
+  padding: 15px;
+  margin: 40px;
+  width: 100px;
+  height: 50px;
+  transition: 0;
+  border: solid;
+}
+.button4:hover {
+  background-color: green;
+  cursor: pointer;
+  color: white;
+}
